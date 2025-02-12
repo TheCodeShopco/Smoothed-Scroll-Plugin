@@ -1,4 +1,3 @@
-
 // Importing Lenis smooth scroll library //
 
 function importLenis() {
@@ -51,5 +50,5 @@ function initialiseSmoothScroll() {
 // Running the functions //
 
 importLenis();
-initialiseSmoothScroll();
+document.addEventListener('DOMContentLoaded', initialiseSmoothScroll);
 
